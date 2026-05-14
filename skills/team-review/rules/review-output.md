@@ -29,6 +29,9 @@ Every lens dispatched by the `team-review` skill MUST emit output in this exact 
 
 ## What I Could Not Assess
 [Be explicit about blind spots so the synthesiser knows the coverage gaps. If you used WebFetch on a client-rendered site and got nothing useful, state it here.]
+
+## Self-Critique
+[ONE sentence only. What would you ask, assess, or do differently if you ran this review again? This feeds the agent self-improvement loop. Be specific — "be more concise" is useless; "I should have checked the pricing page before assessing proposition clarity" is useful. If nothing meaningful to improve, write "None this run.".]
 ```
 
 ## Severity values

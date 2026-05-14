@@ -65,7 +65,8 @@ In a single message, launch all applicable agents concurrently. Each prompt MUST
 Once all lenses return:
 1. Validate each output conforms to the schema. Re-run any lens that returned weak / generic output with sharper context.
 2. Write the consolidated report to `~/.claude/team-reviews/findings-YYYY-MM-DD-<slug>.md` using `assets/findings.template.md` as the structure.
-3. Surface the report inline as the response.
+3. **Extract every Self-Critique entry** from the lens outputs and append them to `~/.claude/agent-evolution/log.md`. Format each entry as: `YYYY-MM-DD | team-review | <lens-name> | <critique>`. Create the file/directory if missing.
+4. Surface the report inline as the response.
 
 ## Non-negotiables
 

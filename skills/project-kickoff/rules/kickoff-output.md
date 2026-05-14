@@ -31,6 +31,9 @@ Every lens dispatched by the `project-kickoff` skill MUST emit output in this ex
 
 ## What I Could Not Assess
 [Blind spots due to missing information. Be explicit.]
+
+## Self-Critique
+[ONE sentence only. What would you ask, assess, or do differently if you ran this kickoff again? This feeds the agent self-improvement loop. Be specific — "be more concise" is useless; "I should have asked about the buyer's existing tooling before recommending the stack" is useful. If nothing meaningful to improve, write "None this run.".]
 ```
 
 ## Severity values

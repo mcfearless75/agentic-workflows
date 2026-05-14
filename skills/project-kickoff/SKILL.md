@@ -81,8 +81,9 @@ Each prompt MUST reference:
 1. Validate all four outputs conform to schema
 2. Re-run any lens that returned weak/generic output with a sharper brief
 3. Write the kickoff doc to `~/.claude/kickoffs/kickoff-YYYY-MM-DD-<slug>.md` using `assets/kickoff-template.md`
-4. Surface the doc inline
-5. End with a single line: the verdict
+4. **Extract every Self-Critique entry** from the lens outputs and append them to `~/.claude/agent-evolution/log.md`. Format each entry as: `YYYY-MM-DD | project-kickoff | <lens-name> | <critique>`. Create the file/directory if missing.
+5. Surface the doc inline
+6. End with a single line: the verdict
 
 ## Non-negotiables
 
