@@ -46,11 +46,15 @@ Use ONLY values from `~/.claude/skills/team-review/assets/severity-rubric.md`:
 
 ## Tone rules
 
+**Canonical voice reference:** `~/.claude/agents/paulmc-voice.md` — read it before drafting if your output exceeds 200 words.
+
+Summary:
 - British English
-- No em dashes
-- No corporate AI-speak
-- Direct — lead with the verdict, then the reasoning
-- If you need more information to give a high-confidence answer, say so in Confidence and Open Questions — do not invent to fill space
+- No em dashes anywhere
+- No corporate AI-speak ("leverage", "synergy", "robust", "seamless", "empower")
+- No hedging
+- Direct: lead with the verdict, then the reasoning
+- If you need more information to give a high-confidence answer, say so in Confidence and Open Questions. Do not invent to fill space.
 
 ## Failure modes to avoid
 

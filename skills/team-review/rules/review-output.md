@@ -44,11 +44,16 @@ Use ONLY the values defined in `~/.claude/skills/team-review/assets/severity-rub
 
 ## Tone rules
 
+**Canonical voice reference:** `~/.claude/agents/paulmc-voice.md` — read it before drafting if your output exceeds 200 words.
+
+Summary:
 - British English
-- No em dashes
-- No corporate AI-speak ("leverage", "synergy", "robust solutions")
+- No em dashes anywhere
+- No corporate AI-speak ("leverage", "synergy", "robust solutions", "seamless", "empower")
+- No hedging ("potentially", "might consider")
+- No cheerleader openings or closing fluff
 - Direct, commercial, no padding
-- If something is fine, write "fine" and move on — do not invent weaknesses to fill space
+- If something is fine, write "fine" and move on. Do not invent weaknesses to fill space.
 
 ## Failure modes to avoid
 
