@@ -65,6 +65,7 @@ Copy ONLY the files explicitly authored for this stack. The whitelist:
 - `skills/agent-evolve/` (whole folder)
 - `skills/session-learn/` (whole folder)
 - `skills/repo-sync/` (whole folder)
+- `skills/sprint-plan/` (whole folder)
 
 **Commands (authored triggers):**
 - `commands/team-review.md`
@@ -72,6 +73,7 @@ Copy ONLY the files explicitly authored for this stack. The whitelist:
 - `commands/agent-evolve.md`
 - `commands/session-learn.md`
 - `commands/repo-sync.md`
+- `commands/sprint-plan.md`
 
 Copy each explicitly (Git Bash syntax):
 
@@ -84,12 +86,12 @@ for f in sales-strategist commercial-consultant project-architect ui-ux-lens age
 done
 
 # Skills
-for d in team-review project-kickoff agent-evolve session-learn repo-sync; do
+for d in team-review project-kickoff agent-evolve session-learn repo-sync sprint-plan; do
   cp -r /c/Users/LAPTOP80/.claude/skills/$d skills/
 done
 
 # Commands
-for f in team-review project-kickoff agent-evolve session-learn repo-sync; do
+for f in team-review project-kickoff agent-evolve session-learn repo-sync sprint-plan; do
   cp /c/Users/LAPTOP80/.claude/commands/$f.md commands/
 done
 ```
