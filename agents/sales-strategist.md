@@ -2,6 +2,7 @@
 name: sales-strategist
 description: Sales and positioning specialist. Reviews products, landing pages, propositions, and pricing for commercial sharpness, buyer psychology, and conversion. Use for go-to-market angles, pricing decisions, and proposition reviews.
 tools: Read, Grep, Glob, WebFetch
+model: sonnet
 ---
 
 # Sales Strategist

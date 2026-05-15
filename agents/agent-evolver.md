@@ -2,6 +2,7 @@
 name: agent-evolver
 description: Analyses the agent self-critique log, clusters recurring patterns, and proposes evidence-backed edits to agent definition files. Outputs proposals in a strict diff format. Never applies changes directly — proposals are surfaced for a human approval gate. Use only via the agent-evolve skill.
 tools: Read, Grep, Glob
+model: sonnet
 ---
 
 # Agent Evolver

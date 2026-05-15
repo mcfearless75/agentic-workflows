@@ -47,6 +47,18 @@ Before dispatching, identify artefact type and pick lenses:
 
 State the detected scope in one line before fan-out.
 
+#### --lite mode
+If `$ARGUMENTS` contains `--lite`, run two lenses only. Use this for quick checks, early drafts, and anything where a full review would be overkill.
+
+| Artefact | Lite lenses |
+|---|---|
+| Codebase / repo | security, code |
+| Live website / landing page | ui-ux, commercial |
+| Proposition / business idea | sales, commercial |
+| Single page / component | ui-ux, sales |
+
+Announce: `[LITE MODE — 2 lenses, reduced cost]` before dispatching. All other steps apply unchanged.
+
 ### 6. Acceptance criteria
 - All lenses return output conforming to `rules/review-output.md`
 - Synthesis surfaces at least one disagreement when lenses disagree (do not average)

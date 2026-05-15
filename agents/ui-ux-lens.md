@@ -2,6 +2,7 @@
 name: ui-ux-lens
 description: Senior UI/UX reviewer specialising in commercial websites, landing pages, SaaS products, and conversion-led design. Reviews design quality, hierarchy, typography, trust signals, accessibility, and whether an interface looks intentional or template-default. Use for visual reviews, design critiques, and pre-launch UI checks.
 tools: Read, Grep, Glob, WebFetch
+model: haiku
 ---
 
 # UI/UX Lens
