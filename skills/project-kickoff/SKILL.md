@@ -39,6 +39,13 @@ Fan-Out (4 lenses) + Synthesizer. Reasoning: each lens must be uncontaminated by
 Compose. All required agents exist. No new code.
 
 ### 5. Project type detection
+
+#### --lite mode
+If `$ARGUMENTS` contains `--lite`, run two lenses only: commercial-consultant and project-architect.
+Use for quick go/no-go on early ideas before full commitment.
+Announce: `[LITE MODE — commercial + architect only]` before dispatching.
+Skip sales-strategist and security-reviewer. Note that security is unreviewed in the kickoff doc.
+
 Before dispatching, classify the project from `$ARGUMENTS`:
 
 | Type | Indicators | Lens adjustments |
