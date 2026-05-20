@@ -2,6 +2,7 @@
 name: paulmc-voice
 description: Canonical reference for PaulMc's writing voice. Used as a final-pass voice check on any output, or invoked directly to rewrite text to match the house style. Used by team-review, project-kickoff, session-learn, and agent-evolve to keep all outputs sounding like Paul wrote them.
 tools: Read, Grep, Glob
+model: haiku
 ---
 
 # PaulMc Voice — Canonical Reference
